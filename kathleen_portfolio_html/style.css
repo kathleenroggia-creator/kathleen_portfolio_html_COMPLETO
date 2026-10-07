@@ -322,3 +322,30 @@ p,li,.nav-tag,.skills-cloud span{font-family:var(--sans)}
   .course-card{padding:31px 20px}
   .contact-card{padding-inline:18px}
 }
+
+/* Ajustes finais para leitura e proporção em celulares. */
+@media (max-width:700px){
+  .hero{min-height:auto;padding:72px 14px 82px;place-items:center}
+  .intro{width:min(100%,560px);margin-top:0}
+  .intro h1{font-size:clamp(3.15rem,15vw,4rem);line-height:.9}
+  .role{font-size:clamp(1rem,4.8vw,1.22rem);line-height:1.35}
+  .hero-description{max-width:34ch;font-size:clamp(.94rem,4vw,1rem);line-height:1.55}
+
+  .section{padding-top:60px;padding-bottom:68px}
+  .section-label{font-size:clamp(1.75rem,8vw,2.25rem)}
+  .section h2{font-size:clamp(2.1rem,9.5vw,2.75rem);line-height:1.02}
+
+  .skills-cloud{gap:8px;margin:22px 0 34px}
+  .skills-cloud span{padding:9px 11px;font-size:clamp(.88rem,3.8vw,.98rem)}
+  .skill-box h3{font-size:clamp(1.45rem,7vw,1.7rem)}
+
+  .experience-card{padding:24px 17px 86px;border-width:8px}
+  .experience-card .exp-head h2{font-size:clamp(2rem,9vw,2.55rem);line-height:1.02}
+  .exp-head p{font-size:1rem}
+  .exp-head strong{font-size:1.08rem}
+  .star-list{gap:13px;font-size:clamp(.98rem,4.25vw,1.08rem)}
+  .star-list li{padding-left:29px}
+  .star-list li::before{font-size:1.4rem}
+  .exp-tags{gap:7px}
+  .case-meta span,.exp-tags span{padding:7px 10px}
+}
