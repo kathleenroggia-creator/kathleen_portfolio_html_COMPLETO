@@ -325,6 +325,7 @@ p,li,.nav-tag,.skills-cloud span{font-family:var(--sans)}
 
 /* Ajustes finais para leitura e proporção em celulares. */
 @media (max-width:700px){
+  .topbar{position:sticky;top:0;z-index:100}
   .hero{min-height:auto;padding:72px 14px 82px;place-items:center}
   .intro{width:min(100%,560px);margin-top:0}
   .intro h1{font-size:clamp(3.15rem,15vw,4rem);line-height:.9}
